@@ -26,8 +26,6 @@ streamlit run app.py
 
 ## Dashboard Preview
 
-## Dashboard Preview
-
 ### Overview
 ![Overview](images/mainpage.png)
 
