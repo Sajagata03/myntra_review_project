@@ -3,13 +3,13 @@
 ## Dashboard Preview
 
 ### Overview
-!(images/mainpage.png)
+![Overview](images/mainpage.png)
 
 ### Ratings
-!(images/avgratings.png)
+![Ratings](images/avgratings.png)
 
 ### Pricing
-!(images/avgpricing.png)
+![Pricing](images/avgpricing.png)
 
 ### Comparison
-!(images/reviews.png)
+![Comaparison](images/reviews.png)
