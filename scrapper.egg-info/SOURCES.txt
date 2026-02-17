@@ -1,5 +1,15 @@
+README.md
 setup.py
 scrapper.egg-info/PKG-INFO
 scrapper.egg-info/SOURCES.txt
 scrapper.egg-info/dependency_links.txt
 scrapper.egg-info/top_level.txt
+src/__init__.py
+src/exception.py
+src/cloud_io/__init__.py
+src/constants/__init__.py
+src/data_report/__init__.py
+src/data_report/generate_data_report.py
+src/scrapper/__init__.py
+src/scrapper/scrape.py
+src/utils/__init__.py
