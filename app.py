@@ -4,6 +4,12 @@ from src.cloud_io import MongoIO
 from src.constants import SESSION_PRODUCT_KEY
 from src.scrapper.scrape import ScrapeReviews
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+MONGO_URI = os.getenv("mongo_db_url")
 
 # the set page config is used for naming the website in the chrome (left corner)
 st.set_page_config(
@@ -46,3 +52,10 @@ def form_input():
 if __name__ == "__main__":
     data = form_input()
 
+
+
+
+from pymongo import MongoClient
+
+client = MongoClient(MONGO_URI)
+db = client["myntra"]
